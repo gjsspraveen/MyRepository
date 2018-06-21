@@ -52,8 +52,8 @@ public class DatabaseDetails
 	  }
 	  finally
 	  {
-		  stmt.close();
-		  conn.close();
+		 stmt.close();
+		 conn.close();
 	  }
 	return i;
   }
